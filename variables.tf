@@ -20,8 +20,7 @@ variable "aws_region" {
 }
 
 variable "instance_type" {
-  type    = string
-  default = "t3.medium"
+  type = string
 }
 
 variable "root_block_size" {
