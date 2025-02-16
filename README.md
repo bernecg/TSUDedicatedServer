@@ -2,7 +2,7 @@
 
 ## What is TSU?
 
-TSU stands for Turbo Slider Unlimited, a multiplayer racing game. Developed by
+TSU stands for Turbo Sliders Unlimited, a multiplayer racing game. Developed by
 [Antti Mannisto](https://store.steampowered.com/search/?developer=Antti%20Mannisto)
 the game can be purchased on Steam here
 [Turbo Sliders Unlimited](https://store.steampowered.com/app/1478340/Turbo_Sliders_Unlimited/)
@@ -35,7 +35,7 @@ TBD
 - Create some scripts for events:
   - Default event (10 tracks - 7 normal | 3 specials - 2 laps).
   - Formula 1 (3 tracks - 5 laps).
-- Add Terraform unit tests".
+- Add Terraform unit tests.
 - Github actions:
   - Check formatting.
   - Execute Terraform validation.
