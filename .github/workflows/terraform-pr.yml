@@ -40,6 +40,5 @@ jobs:
       - name: Terraform Documentation check
         uses: terraform-docs/gh-actions@v1.3.0
         with:
-          working-dir: .
-          output-file: TFDOCS.md
-          output-method: inject
+          output-file: USAGE.md
+          fail-on-diff: true
