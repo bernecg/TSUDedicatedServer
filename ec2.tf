@@ -12,6 +12,6 @@ resource "aws_instance" "tsu_server" {
   }
 
   tags = {
-    Name = "${local.prefix_name}_server"
+    Name = "${var.server_name}_server"
   }
 }

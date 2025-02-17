@@ -30,15 +30,12 @@ TBD
 - Improve documentation:
   - How to execute
   - Diagram
-  - What else?
+  - terraform-docs
 - Download non-default tracks and vehicles automatically (Steam? Google Drive?).
 - Create some scripts for events:
   - Default event (10 tracks - 7 normal | 3 specials - 2 laps).
   - Formula 1 (3 tracks - 5 laps).
-- Add Terraform unit tests.
 - Github actions:
-  - Check formatting.
-  - Execute Terraform validation.
-  - Execute Terraform unit tests.
+  - Check terraform-docs.
 - One-click or Discord-command to execute plan (big maybe).
   - If that's created, automate the deletion of the server after 2-3 hours.

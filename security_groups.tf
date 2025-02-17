@@ -1,5 +1,5 @@
 resource "aws_security_group" "tsu_server" {
-  name        = "${local.prefix_name}_ec2"
+  name        = "${var.server_name}_ec2_sg"
   description = "Allow traffic for TSU dedicated server"
   vpc_id      = data.aws_vpc.default.id
 
@@ -27,6 +27,6 @@ resource "aws_security_group" "tsu_server" {
   }
 
   tags = {
-    Name = "tsu_ec2"
+    Name = "${var.server_name}_ec2_sg"
   }
 }
