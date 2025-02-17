@@ -25,6 +25,10 @@ resource from your machine, although it's not something really heavy.
 
 TBD
 
+## Terraform Docs
+
+[Terraform Documentation](./TFDOCS.md)
+
 ## TODO
 
 - Improve documentation:
