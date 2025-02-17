@@ -28,3 +28,18 @@ jobs:
 
       - name: Terraform Unit test
         run: terraform test
+
+  terraform-docs:
+    name: Terraform Documentation
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Terraform Documentation check
+        uses: terraform-docs/gh-actions@v1.3.0
+        with:
+          working-dir: .
+          output-file: TFDOCS.md
+          output-method: inject
